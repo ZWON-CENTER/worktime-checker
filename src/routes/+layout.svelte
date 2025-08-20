@@ -23,7 +23,7 @@
 				>
 					<NavigationMenu.Item>
 						<NavigationMenu.Link
-							href="/"
+							href="/worktime-checker"
 							class="group inline-flex h-10 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-slate-100 hover:text-slate-900 focus:bg-slate-100 focus:text-slate-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 dark:bg-slate-950 dark:hover:bg-slate-800 dark:hover:text-slate-50 dark:focus:bg-slate-800 dark:focus:text-slate-50 {$page
 								.url.pathname === '/'
 								? 'bg-slate-100 text-slate-900 dark:bg-slate-800 dark:text-slate-50'
@@ -34,7 +34,7 @@
 					</NavigationMenu.Item>
 					<NavigationMenu.Item>
 						<NavigationMenu.Link
-							href="/work-schedule"
+							href="/worktime-checker/work-schedule"
 							class="group inline-flex h-10 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition-colors hover:bg-slate-100 hover:text-slate-900 focus:bg-slate-100 focus:text-slate-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50 dark:bg-slate-950 dark:hover:bg-slate-800 dark:hover:text-slate-50 dark:focus:bg-slate-800 dark:focus:text-slate-50 {$page
 								.url.pathname === '/work-schedule'
 								? 'bg-slate-100 text-slate-900 dark:bg-slate-800 dark:text-slate-50'

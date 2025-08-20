@@ -293,7 +293,7 @@
 												workHours: remainingDayAvgTime.hours.toString(),
 												workMinutes: remainingDayAvgTime.minutes.toString()
 											});
-											window.location.href = `/work-schedule?${params.toString()}`;
+											window.location.href = `/worktime-checker/work-schedule?${params.toString()}`;
 										}}
 										size="sm"
 										class="text-xs"
