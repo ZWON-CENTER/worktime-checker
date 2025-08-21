@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '../app.css';
-	import favicon from '$lib/assets/favicon.svg';
 	import * as NavigationMenu from '$lib/components/ui/navigation-menu';
 	import { page } from '$app/stores';
 
@@ -8,7 +7,8 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href="/favicon.png" type="image/png" />
+	<link rel="apple-touch-icon" href="/favicon.png" />
 </svelte:head>
 
 <div
