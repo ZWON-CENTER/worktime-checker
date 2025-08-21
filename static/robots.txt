@@ -1,3 +1,5 @@
-# allow crawling everything by default
+# 모든 검색엔진 크롤링 차단
 User-agent: *
-Disallow:
+Disallow: /
+
+# 사이트맵 제공하지 않음
